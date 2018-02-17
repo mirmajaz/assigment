@@ -15,8 +15,18 @@ import { Intro } from '../intro/intro';
 export class HomePage {
   constructor(public navCtrl: NavController, public toastCtrl: ToastController)   {
   
+
+
+// bgfhfjjfcdtxnhcfxjyrf;
+
+this.navCtrl;
+
   }
   showToast(position: string) {
+
+
+
+
 
     let toast = this.toastCtrl.create({
       message: 'Login section',
