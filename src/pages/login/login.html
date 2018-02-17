@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Home</ion-title>
+    </ion-navbar>
+  </ion-header>
+          <ion-content class="content" padding>
+        <ion-list>
+                    
+                    <ion-item class="username">
+                      <ion-label floating>Username</ion-label>
+                      <ion-input type="tel" maxlength = "4" value="" ></ion-input>
+                    </ion-item>
+              
+                    <ion-item class="username">
+                      <ion-label floating>Password</ion-label>
+                      <ion-input type="password" maxlength = "8" value="" ></ion-input>
+                    </ion-item>
+              
+                  </ion-list>
+              
+                  <div >
+                    <button ion-button color="primary" block full (click) = "signIn(usernaame)">Sign In</button>
+                  </div>         
+                  
+                  
+    </ion-content>
