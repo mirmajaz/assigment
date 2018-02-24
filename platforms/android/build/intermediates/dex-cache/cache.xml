@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\ionic\Assigment\platforms\android\app\build\intermediates\transforms\desugar\release\0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.3"
+        sha1="67da9a0d0f2a422452ff16ab3f1e57a92c63184a">
+        <dex dex="E:\ionic\Assigment\platforms\android\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+
+</items>
